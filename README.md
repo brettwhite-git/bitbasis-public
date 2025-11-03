@@ -76,6 +76,8 @@ BitBasis supports three industry-standard cost basis calculation methods. Unders
 
 Your BitBasis dashboard provides a comprehensive view of your Bitcoin portfolio:
 
+![Dashboard Overview](./assets/overview.gif)
+
 ### Portfolio Metrics
 
 - **Total BTC Holdings**: Your current Bitcoin balance from buy/sell transactions
@@ -91,12 +93,34 @@ Your BitBasis dashboard provides a comprehensive view of your Bitcoin portfolio:
 - **Holdings Breakdown**: See distribution of your holdings by purchase date
 - **Transaction History**: Complete record of all your transactions
 
+![Performance](./assets/performance.gif)
+
 ### Transaction Management
 
 - **View All Transactions**: Filter, sort, and search through your transaction history
 - **Edit Transactions**: Correct any errors or missing information
 - **Add Transactions Manually**: Enter transactions directly if you don't have CSV exports
 - **Export Data**: Download your transaction history for tax preparation or record-keeping
+
+![Transactions](./assets/transactions.gif)
+
+### Savings Goal Calculator
+
+- **Multiple Goal Tracking**: Create and manage multiple savings goals with custom names, each with its own contribution schedule and target
+- **Target Date Estimates**: View projected dates for reaching your Bitcoin savings goal based on contribution amount and frequency
+- **ROI & Performance Metrics**: See projected return on investment, principal vs. gains breakdown, and total value at period end
+- **Flexible Planning Tools**: Adjust contribution amounts, frequencies, projection periods, and Bitcoin price assumptions to model different scenarios
+
+![Savings](./assets/savings.gif)
+
+### Investment Calculator
+
+- **Fixed Goal Projections**: Calculate required weekly/monthly contributions to reach a specific Bitcoin target amount (displayed in BTC or sats)
+- **Recurring Buy Projections**: Project future value of regular Bitcoin purchases (DCA) based on your contribution schedule and expected growth
+- **Custom Growth Scenarios**: Set expected annual Bitcoin growth (CAGR) and view inflation-adjusted values
+- **Interactive Visualizations**: Charts showing accumulated Bitcoin and USD value over time with contribution frequency options (weekly/monthly)
+
+![Investment](./assets/calculator.gif)
 
 ---
 
