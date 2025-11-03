@@ -159,6 +159,8 @@ Your CSV should include these essential fields:
 
 ### CSV Templates
 
+![Import](./assets/csvimport.gif)
+
 BitBasis provides CSV templates to help you format your data correctly. You can download these templates from the import interface or use your exchange's export format—BitBasis will attempt to automatically map common formats.
 
 ### Import Tips
