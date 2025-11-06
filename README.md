@@ -138,16 +138,16 @@ Your CSV should include these essential fields:
 #### Transaction-Specific Requirements
 
 **Buy Transactions:**
-- Received Amount (BTC)
-- Received Currency (BTC)
-- Sent Amount (USD or fiat)
-- Sent Currency (USD, EUR, etc.)
+- Received Amount (USD, BTC)
+- Received Currency (USD, BTC)
+- Sent Amount (USD, BTC)
+- Sent Currency (USD, BTC)
 
 **Sell Transactions:**
-- Sent Amount (BTC)
-- Sent Currency (BTC)
-- Received Amount (USD or fiat)
-- Received Currency (USD, EUR, etc.)
+- Sent Amount (USD, BTC)
+- Sent Currency (USD, BTC)
+- Received Amount (USD, BTC)
+- Received Currency (USD, BTC)
 
 **Deposit/Withdrawal:**
 - Amount and currency (BTC for deposits/withdrawals)
