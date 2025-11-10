@@ -10,10 +10,10 @@ BitBasis is a comprehensive Bitcoin portfolio management tool designed for indiv
 
 ### Key Principles
 
-- **Privacy-First**: Your data is never shared with third parties. No exchange API integrations mean no external access to your accounts.
-- **User-Controlled**: You upload your transaction data directly via CSV files.
+- **Privacy-Focused**: Your data is never shared with third parties. No exchange API integrations mean no external access to your accounts.
+- **User-Controlled**: You upload your transaction data directly via CSV files or manual entry
 - **Secure**: Built on Supabase with Row Level Security (RLS) ensuring your data is isolated and protected.
-- **Tax-Ready**: Multiple cost basis calculation methods (FIFO, LIFO, HIFO) help you prepare for tax reporting.
+- **Tax-Insights**: Multiple cost basis calculation methods (FIFO, LIFO, HIFO) help you prepare for potential tax obligations
 
 ---
 
@@ -39,7 +39,7 @@ The easiest way to get started is by importing your transaction history via CSV:
 - **Sell Orders**: Bitcoin → Fiat currency sales
 - **Deposits**: Bitcoin received from external wallets
 - **Withdrawals**: Bitcoin sent to external wallets
-- **Interest/Earnings**: Bitcoin earned from lending, staking, or rewards
+- **Interest/Earnings**: Bitcoin earned from cash holdings
 
 ---
 
@@ -68,7 +68,7 @@ BitBasis supports three industry-standard cost basis calculation methods. Unders
 - Advanced strategy for tax optimization
 - Best for: Sophisticated investors optimizing tax liability
 
-**Important**: BitBasis is not a tax calculator. Always consult with a qualified tax professional regarding your specific situation and which method is best for you.
+**DISCLAIMER**: BitBasis is not tax prepration or reporting software. Always consult with a qualified tax professional regarding your specific situation and which method is best for you.
 
 ---
 
@@ -154,7 +154,8 @@ Your CSV should include these essential fields:
 
 #### Optional Fields
 - Fee Amount and Fee Currency
-- From/To addresses or exchange names
+- From/To wallet addresses or exchange names
+- Transaction Hash
 - Comments or notes
 
 ### CSV Templates
